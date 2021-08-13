@@ -83,7 +83,7 @@ jobs:
 
        - name: Upload SGSI to action-gh-release...
          if: env.upload_action-gh-release == 'true'
-         uses: ncipollo/release-action@v1.8.6
+         uses: ncipollo/release-action@v1.8.8
          with:
            artifacts: ${{ github.workspace }}/SGSI-build-tool/upload/*
            name: xiaoxinSGSI-${{ env.OS_TYPE }}-${{ env.BUILD_TYPE }}-Android${{ env.VERSION }}-unpack
