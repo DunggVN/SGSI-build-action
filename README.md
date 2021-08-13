@@ -1,16 +1,16 @@
 # SGSI-build-action
 **Don't build directly in this warehouse, please fork this warehouse first, and then go to your own warehouse to build!**
 
-## 使用方法:
+## How to use:
 ```
-1. fork此仓库
-2. 编辑SGSI_Build.yml:
-     ROM_URL: 为你的下载连接 
-     ZIP_NAME: 为你下载的包名 
-     OS_TYPE: 为你要跑的rom类型  
-     BUILD_TYPE: 为你需要build的类型(ab|a-only) 
+1. Fork this repo
+2. Edit SGSI_Build.yml:
+     ROM_URL: Rom download link (direct link)
+     ZIP_NAME: Archive Name (GSI name)
+     OS_TYPE: Rom Type  
+     BUILD_TYPE: Choose ab or a-only to build
      REPACK_NAME: 为你需要打包的包名
-3. 修改完毕后依次点击Start commit -> Actions选项卡 -> Star -> SGSI-Build
+3. Start commit -> Actions -> Star -> SGSI-Build
 ```
  
 ## 输出结果
