@@ -13,7 +13,7 @@
 3. Start commit -> Actions -> Star -> SGSI-Build
 ```
  
-## 输出结果
+## Output
 结果在[Release](../../releases)下载  
 大于2G的文件将自动采用分卷压缩上传  
 如果上传结果为分卷压缩，下载所有分区卷，并使用以下命令进行合并:
