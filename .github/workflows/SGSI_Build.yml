@@ -7,7 +7,7 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://sourceforge.net/projects/crdroid/files/mido/7.x/crDroidAndroid-11.0-20210810-mido-v7.9.zip/download'
+  ROM_URL: 'https://downloads.sourceforge.net/project/crdroid/mido/7.x/crDroidAndroid-11.0-20210810-mido-v7.9.zip?ts=gAAAAABhFoKIy3X6za0KSyeQIqegRBai4dBu2WkAZLsvhVCSAYVQEoCWtyGsx0RSXNWA--Uk_0oZRI-Ag6ihZ-Pes9ahdbIKNw%3D%3D&use_mirror=telkomuniversity&r='
   ZIP_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'ab'
