@@ -9,17 +9,17 @@
      ZIP_NAME: Archive Name (GSI name)
      OS_TYPE: Rom Type  
      BUILD_TYPE: Choose ab or a-only to build
-     REPACK_NAME: 为你需要打包的包名
+     REPACK_NAME: Name package u need
 3. Start commit -> Actions -> Star -> SGSI-Build
 ```
  
 ## Output
-结果在[Release](../../releases)下载  
-大于2G的文件将自动采用分卷压缩上传  
-如果上传结果为分卷压缩，下载所有分区卷，并使用以下命令进行合并:
+The output (GSI) are downloaded in[Release](../../releases) 
+Files larger than 2G will be automatically uploaded using sub-volume compression
+If the upload result is sub-volume compression, download all sub-volumes and merge them with the following command: 
 ```
 cat upload/* > SGSI.zip
 ```
 
-## 友情链接
-Android R版:[Action-SGSI-build](https://github.com/XayahSuSuSu/Action-SGSI-build)
+## Other tools
+Android R Tool:[Action-SGSI-build](https://github.com/XayahSuSuSu/Action-SGSI-build)
