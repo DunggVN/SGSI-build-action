@@ -7,12 +7,12 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip'
+  ROM_URL: 'https://sourceforge.net/projects/crdroid/files/mido/7.x/crDroidAndroid-11.0-20210810-mido-v7.9.zip/download'
   ZIP_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'ab'
   REPACK_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
-  VERSION: '12'
+  VERSION: '11'
   upload_action-gh-release: 'true'
   SETUP: 'true'
   
