@@ -11,7 +11,7 @@ env:
   ZIP_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'ab'
-  REPACK_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
+  REPACK_NAME: 'SGSI.zip'
   VERSION: '11'
   upload_action-gh-release: 'true'
   SETUP: 'true'
