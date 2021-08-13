@@ -14,7 +14,7 @@
 ```
  
 ## Output
-The output (GSI) are downloaded in[Release](../../releases) 
+The output (GSI) are downloaded in [Release](../../releases) 
 Files larger than 2G will be automatically uploaded using sub-volume compression
 If the upload result is sub-volume compression, download all sub-volumes and merge them with the following command: 
 ```
