@@ -7,7 +7,7 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://downloads.sourceforge.net/project/crdroid/mido/7.x/crDroidAndroid-11.0-20210810-mido-v7.9.zip?ts=gAAAAABhFoKIy3X6za0KSyeQIqegRBai4dBu2WkAZLsvhVCSAYVQEoCWtyGsx0RSXNWA--Uk_0oZRI-Ag6ihZ-Pes9ahdbIKNw%3D%3D&use_mirror=telkomuniversity&r='
+  ROM_URL: 'https://repo.mirrorbot69.workers.dev/0:/crDroidAndroid-11.0-20210810-mido-v7.9.zip'
   ZIP_NAME: 'CrDroid-7.9-R-AB-SGSI-20210813.zip'
   OS_TYPE: 'Generic'
   BUILD_TYPE: 'ab'
@@ -72,7 +72,7 @@ jobs:
              cd $GITHUB_WORKSPACE/SGSI-build-tool
              pwd
              mkdir -p upload
-             zip -r SGSI.zip . -i SGSI/*
+             zip -r $REPACK_NAME ./SGSI/*
              if [[ $(du -sb "$REPACK_NAME" | awk '{print $1}') -gt 2097152000 ]];then
                  echo -e "split packaging..."
                  tar -cpzf - "$REPACK_NAME" | split -d -b 1024m - "upload/$REPACK_NAME"
